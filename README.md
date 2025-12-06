@@ -2,7 +2,7 @@
 DSG Final project for group 6 With Assistant code JD
 
 The code used is my part finpro
-The ElevatorCodeSkeleton one are Memories (Unused prototype)
+The ElevatorFinalProjectSkeleton one are Memories (Unused prototype)
 
 The Current Progress status
 
