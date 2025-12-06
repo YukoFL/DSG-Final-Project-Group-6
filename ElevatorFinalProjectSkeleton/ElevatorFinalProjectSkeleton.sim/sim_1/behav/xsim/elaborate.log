@@ -5,4 +5,20 @@ Running: D:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.passenger_generator [passenger_generator_default]
+Compiling architecture rtl of entity xil_defaultlib.floor_button_handler [floor_button_handler_default]
+Compiling architecture rtl of entity xil_defaultlib.door_button_handler [door_button_handler_default]
+Compiling architecture rtl of entity xil_defaultlib.emergency_button_handler [emergency_button_handler_default]
+Compiling architecture rtl of entity xil_defaultlib.overweight_handler [overweight_handler_default]
+Compiling architecture rtl of entity xil_defaultlib.optimization_handler [optimization_handler_default]
+Compiling architecture rtl of entity xil_defaultlib.motion_controller [motion_controller_default]
+Compiling architecture structural of entity xil_defaultlib.Elevator_Controller [elevator_controller_default]
+Compiling architecture sim of entity xil_defaultlib.tb_elevator
+Built simulation snapshot tb_elevator_behav

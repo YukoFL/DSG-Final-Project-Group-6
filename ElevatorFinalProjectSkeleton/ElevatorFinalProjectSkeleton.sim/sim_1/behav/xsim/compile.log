@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Documents/Campus/Vivado/ElevatorFinalProjectSkeleton/Elevator_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Elevator_Controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Documents/Campus/Vivado/ElevatorFinalProjectSkeleton/tb_elevator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_elevator'
