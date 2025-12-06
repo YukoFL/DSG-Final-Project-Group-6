@@ -5,13 +5,14 @@ The code used is my part finpro
 The ElevatorCodeSkeleton one are Memories (Unused prototype)
 
 The Current Progress status
-Arfa 
-> Base Code
-> Floor System 1-8
-> Emergency Feature
-> Double click Feature
 
-Evan
-> Weight System
-> Call System
-> LED and Alarm for Weight system
+Arfa  / ArfaSetyadi
+ Base Code
+Floor System 1-8
+Emergency Feature
+Double click Feature
+
+Evan / YukoFL
+ Weight System
+Call System
+LED and Alarm for Weight system
