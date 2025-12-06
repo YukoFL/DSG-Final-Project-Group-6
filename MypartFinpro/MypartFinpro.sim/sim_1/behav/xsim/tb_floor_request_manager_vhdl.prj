@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Downloads/floor request manage.vhdl" \
+"../../../../../Downloads/tb_floorRequestManage.vhdl" \
+
+# Do not sort compile order
+nosort
