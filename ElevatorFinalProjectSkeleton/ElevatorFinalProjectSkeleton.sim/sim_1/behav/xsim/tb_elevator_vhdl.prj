@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/floor_button_handler.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/door_button_handler.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/emergency_button_handler.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/overweight_handler.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/optimization_handler.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/motion_controller.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/Elevator_controller.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/passenger_generator.vhd" \
+"../../../../../../../../Downloads/ElevatorVHDL/ElevatorVHDL/tb_elevator.vhd" \
+
+# Do not sort compile order
+nosort
