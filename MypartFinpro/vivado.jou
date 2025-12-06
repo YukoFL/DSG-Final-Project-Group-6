@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Dec  6 15:28:28 2025
+# Process ID: 22252
+# Current directory: C:/Users/setya/MypartFinpro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20668 C:\Users\setya\MypartFinpro\MypartFinpro.xpr
+# Log file: C:/Users/setya/MypartFinpro/vivado.log
+# Journal file: C:/Users/setya/MypartFinpro\vivado.jou
+# Running On: Arfa, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17002 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/setya/MypartFinpro/MypartFinpro.xpr
+open_project C:/Users/setya/MypartFinpro/MypartFinpro.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/setya/Downloads/floor request manage.vhdl}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/setya/Downloads/floor request manage.vhdl}}
+export_ip_user_files -of_objects  [get_files C:/Users/setya/Downloads/tb_floorRequestManage.vhdl] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/setya/Downloads/tb_floorRequestManage.vhdl
+add_files -norecurse {{C:/Users/setya/MypartFinpro/floor request manage.vhdl}}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/setya/MypartFinpro/tb_floorRequestManage.vhdl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_floor_request_manager.tcl
+close_sim
