@@ -15,4 +15,10 @@ Arfa  / ArfaSetyadi
 Evan / YukoFL
 >Weight System /
 >Call System /
->LED and Alarm for Weight system 
+>LED and Alarm for Weight system
+
+Derryl / GPapers00
+>Final Project Report
+
+Risyad / risyadali
+>Final Project PPT
